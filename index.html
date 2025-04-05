@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <title>Fardeen Pranto's Portfolio</title>
+    <style>
+        /* Enables smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>  
+    <div class="h-screen bg-[url('./pic.jpg')] bg-cover flex flex-col justify-between">
+        <nav>
+            <ul class="flex justify-end space-x-15 text-right p-5 text-white">
+                <li class="text-2xl font-serif no-underline hover:underline"><a href="#about">About</a></li>
+                <li class="text-2xl font-serif no-underline hover:underline"><a href="#projects">Projects</a></li>
+                <li class="text-2xl font-serif no-underline hover:underline"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex flex-col items-center">
+            <img src="me.jpg" alt="profile" class="w-80 h-80 rounded-full border-4 border-white shadow-lg shadow-black">
+            <p class="text-white text-3xl mt-4 font-serif">Fardeen Ameen Pranto</p>
+            <p class="text-white text-2xl mt-2 font-serif">Software Engineer</p>
+        </div>
+    </div>
+
+    <div id="about" class="h-screen px-20 bg-black flex flex-col justify-center">
+        <h2 class="text-4xl font-bold text-white font-serif underline underline-offset-4">About Me</h2>
+        <p class="text-white mt-10 font-serif text-xl">I am a passionate software engineer with a love for coding and technology. I'm from Bangladesh and have graduated with a bachelor's in Computer Science <br> and Engineering from the University of Liberal Arts Bangladesh.
+            I enjoy solving complex problems and building innovative solutions that leverage the latest <br> technologies. My expertise lies in web development and software engineering.
+            I'm always eager to collaborate with like-minded individuals and contribute to <br> exciting projects.
+        </p>
+        <p class="text-white mt-4 font-serif text-xl">Feel free to explore my projects and get in touch!</p>
+    </div>
+
+    <div id="projects" class="h-screen bg-[url('./pic.jpg')] bg-cover flex flex-col items-center px-11 gap-8 py-20">
+      
+      <h2 class="text-4xl font-bold text-white mb-8">My Projects</h2>
+  
+        <div class="flex justify-center gap-8 flex-wrap">
+          <div class="relative flex flex-col my-6 bg-gray-500 shadow-sm border border-black rounded-lg w-96 h-125">
+              <div class="relative h-56 m-2.5 overflow-hidden text-white rounded-md">
+                <img src="./blockchain.png" alt="card-image"/>
+              </div>
+              <div class="p-4">
+                <h6 class="mb-2 text-slate-800 text-xl font-semibold">
+                  Blockchain-based EHR
+                </h6>
+                <p class="text-white leading-normal font-light">
+                  An Electronic Health Record (EHR) system that uses blockchain technology to ensure data integrity and security. The system allows patients to control their own health data and share it with healthcare providers as needed.
+                </p>
+              </div>
+              <div class="px-4 pb-4 pt-0 mt-2">
+                
+                <a href="https://github.com/xjackhammered/EHR-Besu-Blockchain" target="_blank"><button class="rounded-md bg-slate-800 py-2 px-4 border border-transparent text-center text-sm text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" type="button">
+                  Check it out!
+                </button></a>
+              </div>
+          </div>
+          
+          <div class="relative flex flex-col my-6 bg-gray-500 shadow-sm border border-black rounded-lg w-96 h-125">
+              <div class="relative h-56 m-2.5 overflow-hidden text-white rounded-md">
+                <img src="./blockchain.png" alt="card-image" />
+              </div>
+              <div class="p-4">
+                <h6 class="mb-2 text-slate-800 text-xl font-semibold">
+                  Blockchain-based EHR
+                </h6>
+                <p class="text-white leading-normal font-light">
+                  An Electronic Health Record (EHR) system that uses blockchain technology to ensure data integrity and security. The system allows patients to control their own health data and share it with healthcare providers as needed.
+                </p>
+              </div>
+              <div class="px-4 pb-4 pt-0 mt-2">
+                <button class="rounded-md bg-slate-800 py-2 px-4 border border-transparent text-center text-sm text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" type="button">
+                  Check it out!
+                </button>
+              </div>
+          </div>
+  
+          <div class="relative flex flex-col my-6 bg-gray-500 shadow-sm border border-black rounded-lg w-96 h-125">
+              <div class="relative h-56 m-2.5 overflow-hidden text-white rounded-md">
+                <img src="./blockchain.png" alt="card-image" />
+              </div>
+              <div class="p-4">
+                <h6 class="mb-2 text-slate-800 text-xl font-semibold">
+                  Blockchain-based EHR
+                </h6>
+                <p class="text-white leading-normal font-light">
+                  An Electronic Health Record (EHR) system that uses blockchain technology to ensure data integrity and security. The system allows patients to control their own health data and share it with healthcare providers as needed.
+                </p>
+              </div>
+              <div class="px-4 pb-4 pt-0 mt-2">
+                <button class="rounded-md bg-slate-800 py-2 px-4 border border-transparent text-center text-sm text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" type="button">
+                  Check it out!
+                </button>
+              </div>
+          </div>  
+        </div>
+      </div>
+  
+    </div>
+
+    <div id="contact" class="h-screen px-40 bg-black flex flex-col">
+
+        <div>
+          <h1 class="text-white fond-bold text-5xl py-10 font-serif">Contact Me</h1>
+        </div>
+
+        <div class="max-w-lg mx-auto px-[130px] text-white text-2xl font-serif rounded-lg shadow-lg">
+          <form method="post" action="https://script.google.com/macros/s/AKfycbxxXH5cTvLlMit6v4ZhmPJPKpCIK_VFs8HwwVolKAzPib1qdnPiWsbJecCwLNR3ZLkn2A/exec" target="_blank">
+            <label for="name" class="block mb-2">Your Name</label>
+            <input type="text" id="name" name="name" class="border border-gray-300 rounded-md p-2 w-150 mb-4 text-white" required>
+        
+            <label for="email" class="block mb-2">Your Email</label>
+            <input type="email" id="email" name="email" class="border border-gray-300 rounded-md p-2 w-150 mb-4 text-white" required>
+        
+            <label for="message" class="block mb-2">Message</label>
+            <textarea id="message" name="message" class="w-150 p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 text-white" rows="4" required></textarea>
+        
+            <button type="submit" class="mt-4 w-full bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-md transition duration-300">Submit</button>
+          </form>
+        </div>
+        
+
+        <div class="text-xl font-serif">
+          <i class="fas fa-envelope text-red-500 text-xl"></i>
+          <span class="text-white text-xl py-15">fardeenpranto7@gmail.com</span>
+        </div>
+
+        <div class="text-xl font-serif">
+          <i class="fas fa-phone text-red-500 text-xl"></i>
+          <span class="text-white text-xl py-15">01751810506</span>
+        </div>
+        
+        <div class="py-10 flex space-x-4">
+          <a href="http://facebook.com/profile.php?id=61571740003631" target="_blank" class="text-white text-4xl hover:text-gray-400">
+              <i class="fab fa-facebook"></i>
+          </a>
+          <a href="http://linkedin.com/in/fardeen-pranto-a34214246" target="_blank" class="text-white text-4xl hover:text-gray-400">
+              <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+
+        <div>
+          <button class="rounded-md bg-slate-800 py-6 px-10 border border-transparent text-center text-sm text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" type="button">
+            <a href="https://drive.google.com/file/d/1v0g3Xk7q5x8r6j9cJm1z4Zl5Gf7Qe8hO/view?usp=sharing" target="_blank">Download Resume</a></button>
+        </div>
+    </div>
+
+
+</body>
+</html>
